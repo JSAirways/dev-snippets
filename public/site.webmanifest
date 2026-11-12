@@ -1,0 +1,19 @@
+{
+    "name": "Dev-Snippets",
+    "short_name": "Dev-Snippets",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#343a40",
+    "background_color": "#f8f9fa",
+    "display": "standalone"
+}

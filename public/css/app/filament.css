@@ -1,0 +1,7 @@
+.code-editor-textarea-wrapper {
+    border: none;
+}
+
+.code-editor-textarea-wrapper .cm-content {
+    padding-top: 0;
+}
