@@ -12,6 +12,6 @@ class CreateSnippet extends CreateRecord
 
     protected function getRedirectUrl(): string
     {
-        return $this->getResource()::getUrl('snippet');
+        return $this->getResource()::getUrl('edit', ['record' => $this->getRecord()]);
     }
 }

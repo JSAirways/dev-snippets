@@ -4,6 +4,26 @@
 
 /* Custom styles can be added below */
 
+.sidebar-category-toggle {
+    color: inherit;
+    cursor: pointer;
+    line-height: 1.4;
+}
+
+.sidebar-category-toggle:hover,
+.sidebar-category-toggle:focus-visible {
+    color: #000;
+    outline: none;
+}
+
+.sidebar-chevron {
+    transition: transform .2s ease-in-out;
+}
+
+.sidebar-category-toggle[aria-expanded="true"] .sidebar-chevron {
+    transform: rotate(180deg);
+}
+
 li.list-group-item.sub-item a {
     color: inherit;
     border-bottom: 1px solid transparent;
